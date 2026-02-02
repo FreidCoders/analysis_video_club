@@ -19,4 +19,5 @@ ggplot(category,aes(category,total_sales,fill = category))+
   labs(title = "Visualization des ventes par catégories")+
   coord_flip()
 
+ggsave("outputs/plots/category_sales.png")
 #traitement & visualisation de clients
